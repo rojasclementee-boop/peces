@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platos Peruanos - Gastronomía Peruana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">🍲 Platos Peruanos</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Peces</a></li>
+                <li><a href="codigo-postal.html">Código Postal</a></li>
+                <li><a href="platos-peru.html">Platos Perú</a></li>
+            </ul>
+        </nav>
+        <div class="hero" id="inicio">
+            <h1>Descubre la Gastronomía Peruana</h1>
+            <p>Explora 10 de los platos más deliciosos y tradicionales de Perú</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="platos" class="especies">
+            <h2>10 Platos Tradicionales Peruanos</h2>
+            
+            <div class="species-container">
+                <!-- 1. Ceviche -->
+                <div class="species-card">
+                    <div class="species-header">🍋 Ceviche</div>
+                    <div class="species-content">
+                        <h3>Descripción</h3>
+                        <p>Plato icónico preparado con pescado fresco marinado en jugo de limón, con cebolla morada, cilantro y ají. Se sirve con camote y choclo.</p>
+                        
+                        <h3>Ingredientes Principales</h3>
+                        <p>Pescado blanco fresco, limón, cebolla morada, cilantro, ají amarillo, camote, choclo, maíz tostado.</p>
+                        
+                        <h3>Región y Origen</h3>
+                        <p>Originario de la costa peruana, especialmente de Lima. Es considerado el plato nacional del Perú y tiene raíces preincaicas.</p>
+                    </div>
+                </div>
+
+                <!-- 2. Lomo a lo Pobre -->
+                <div class="species-card">
+                    <div class="species-header">🥩 Lomo a lo Pobre</div>
+                    <div class="species-content">
+                        <h3>Descripción</h3>
+                        <p>Corte de carne de res asada, acompañado de papas fritas, cebolla frita, arroz blanco y un huevo frito. Servido con salsa criolla.</p>
+                        
+                        <h3>Ingredientes Principales</h3>
+                        <p>Lomo de res, papas, cebollas, arroz, huevo, salsa criolla, aceitunas negras, perejil.</p>
+                        
+                        <h3>Región y Origen</h3>
+                        <p>Plato tradicional de la sierra y costa peruana. Se popularizó en los campos y haciendas como almuerzo para trabajadores.</p>
+                    </div>
+                </div>
+
+                <!-- 3. Ají de Gallina -->
+                <div class="species-card">
+                    <div class="species-header">🌶️ Ají de Gallina</div>
+                    <div class="species-content">
+                        <h3>Descripción</h3>
+                        <p>Guiso cremoso de carne de pollo desmenuzada en salsa de ají amarillo, pan molido, queso y leche. Se acompaña con papas cocidas y arroz.</p>
+                        
+                        <h3>Ingredientes Principales</h3>
+                        <p>Pollo cocido, ají amarillo, pan molido, queso fresco, leche, caldo de pollo, papas amarillas, arroz, huevo cocido.</p>
+                        
+                        <h3>Región y Origen</h3>
+                        <p>Originario de Lima, es un plato de la cocina criolla peruana. Combina técnicas españolas con ingredientes peruanos tradicionales.</p>
+                    </div>
+                </div>
+
+                <!-- 4. Causa Limeña -->
+                <div class="species-card">
+                    <div class="species-header">💛 Causa Limeña</div>
+                    <div class="species-content">
+                        <h3>Descripción</h3>
+                        <p>Pastel frío de papa amarilla con limón, guacamole, pollo desmenuzado y mayonesa. Presentado en capas de colores vivos.</p>
+                        
+                        <h3>Ingredientes Principales</h3>
+                        <p>Papa amarilla, limón, ají amarillo, pollo cocido, aguacate, mayonesa, huevo cocido, olivas negras, perejil.</p>
+                        
+                        <h3>Región y Origen</h3>
+                        <p>Plato limeño por excelencia, típico de las celebraciones. Tiene influencia de la cocina española y prehispánica.</p>
+                    </div>
+                </div>
+
+                <!-- 5. Anticuchos -->
+                <div class="species-card">
+                    <div class="species-header">🍢 Anticuchos</div>
+                    <div class="species-content">
+                        <h3>Descripción</h3>
+                        <p>Brochetas de corazón de res marinadas en vinagre, ají rojo y especias, luego asadas a la parrilla. Se sirven con papa a la huancaína.</p>
+                        
+                        <h3>Ingredientes Principales</h3>
+                        <p>Corazón de res, ají rojo, vinagre, ajo, comino, papas, salsa de huancaína, brochetas de bambú o metal.</p>
+                        
+                        <h3>Región y Origen</h3>
+                        <p>Tradición de origen africano traída durante la colonia. Popular en mercados y calles de todo el Perú, especialmente en Lima.</p>
+                    </div>
+                </div>
+
+                <!-- 6. Papa a la Huancaína -->
+                <div class="species-card">
+                    <div class="species-header">🥔 Papa a la Huancaína</div>
+                    <div class="species-content">
+                        <h3>Descripción</h3>
+                        <p>Papas cocidas cubiertas con una salsa cremosa de ají amarillo, queso fresco y leche. Acompañadas de huevo cocido y aceitunas negras.</p>
+                        
+                        <h3>Ingredientes Principales</h3>
+                        <p>Papas amarillas, ají amarillo, queso fresco, leche evaporada, galletas de soda, huevo cocido, aceitunas negras, perejil.</p>
+                        
+                        <h3>Región y Origen</h3>
+                        <p>Originaria del pueblo de Huancayo en la sierra central. Plato festivo que representa la cocina serrana peruana.</p>
+                    </div>
+                </div>
+
+                <!-- 7. Rocoto Relleno -->
+                <div class="species-card">
+                    <div class="species-header">🌶️ Rocoto Relleno</div>
+                    <div class="species-content">
+                        <h3>Descripción</h3>
+                        <p>Rocoto (ají grande) relleno de carne molida, pasas y aceitunas, cubierto con salsa de queso derretido y horneado.</p>
+                        
+                        <h3>Ingredientes Principales</h3>
+                        <p>Rocoto rojo, carne molida de res, cebolla, huevo, pasas, aceitunas negras, queso fresco derretido, ají rojo, pan molido.</p>
+                        
+                        <h3>Región y Origen</h3>
+                        <p>Plato típico de Arequipa y la región sur del Perú. Es un plato festivo que se sirve en celebraciones y reuniones.</p>
+                    </div>
+                </div>
+
+                <!-- 8. Chupe de Camarones -->
+                <div class="species-card">
+                    <div class="species-header">🦐 Chupe de Camarones</div>
+                    <div class="species-content">
+                        <h3>Descripción</h3>
+                        <p>Sopa cremosa de camarones con papas, queso fresco, leche y huevo. Muy sabrosa y reconfortante, típica de la costa peruana.</p>
+                        
+                        <h3>Ingredientes Principales</h3>
+                        <p>Camarones frescos, papas, cebolla, ajo, tomate, leche evaporada, queso fresco, huevo, cilantro, caldo de camarón.</p>
+                        
+                        <h3>Región y Origen</h3>
+                        <p>Originario de la costa peruana, especialmente de ciudades como Chincha y Nazca. Plato tradicional de celebraciones costeras.</p>
+                    </div>
+                </div>
+
+                <!-- 9. Arroz con Pollo -->
+                <div class="species-card">
+                    <div class="species-header">🍚 Arroz con Pollo</div>
+                    <div class="species-content">
+                        <h3>Descripción</h3>
+                        <p>Arroz cocinado con pollo desmenuzado, verduras (guisantes, zanahoria), cilantro y especias. Tiene un color verdoso intenso.</p>
+                        
+                        <h3>Ingredientes Principales</h3>
+                        <p>Arroz blanco, pollo, cerveza, cilantro, guisantes, zanahoria, cebolla, ajo, ají verde, culantro, caldo de pollo.</p>
+                        
+                        <h3>Región y Origen</h3>
+                        <p>Plato costeño muy popular en Lima y toda la costa peruana. Se sirve en reuniones familiares y celebraciones.</p>
+                    </div>
+                </div>
+
+                <!-- 10. Picante de Papa -->
+                <div class="species-card">
+                    <div class="species-header">🌶️ Picante de Papa</div>
+                    <div class="species-content">
+                        <h3>Descripción</h3>
+                        <p>Guiso de papas nativas cocinadas en salsa de ají rojo con carne seca (charque), queso fresco y leche. Plato muy energético.</p>
+                        
+                        <h3>Ingredientes Principales</h3>
+                        <p>Papas nativas, ají rojo, carne seca deshilachada, queso fresco, leche, cebolla, ajo, comino, perejil, huevo cocido.</p>
+                        
+                        <h3>Región y Origen</h3>
+                        <p>Plato de la sierra peruana, especialmente popular en Puno y las alturas. Representa la gastronomía andina tradicional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>¡Te encantarán estos sabores!</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">La gastronomía peruana es considerada una de las mejores del mundo. 🌟</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu email" required>
+                <textarea placeholder="¿Cuál es tu plato peruano favorito?" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&
+
